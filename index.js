@@ -4,15 +4,19 @@ const button1=document.getElementById('btn')
 const list=document.getElementById('output')
 const button2=document.getElementById('BTN')
 function addGuest(){
-  list.innerHTML=text.value;  
+  list.textContent=text.value;  
 }
   button1.addEventListener('click',addGuest);
 
 function deleteGuest(){
-  list.innerHTML=text.value; 
-  if(guestname=>10){
-    alert
-  }
+  list.textContent=text.value; 
+  
 }
 button2.addEventListener('click',deleteGuest)
 
+
+  addGuest.forEach(guest => {
+    const listItem=document.createElement("div")
+    listItem.textContent=guest
+    list.append(listItem)
+  });
