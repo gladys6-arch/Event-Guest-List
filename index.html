@@ -3,28 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Guest list Project</title>
+  <title>Document</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="container">
-    <div class="heading">
-      <h1 id="h1">Event Guest List</h1>
-      <button id="theme-toggle">Toggle</button>
-    </div>
-    <form id="form">
-    <input id="text" placeholder="Enter Name" type="text">
-  <select id="GuestCategory">
-    <option value="friend">Friends</option>
-    <option value="family">Family</option>
-    <option value="colleague">Colleague</option>
-    </select>
-    <button type="submit">Add</button>
-  </form>
-  <ul id="guestlist"></ul>
+   <div class="heading">
+    <h1>Event guest list</h1>
+    <input type="button" value="toggle">
+   </div>
+   <label id="username">Guest Name</label>
+   <input id="input" placeholder="Enter Name" type="text">
+   <input id="btn" type="button" value="add">
+   <input id="BTN" type="button" value="delete">
+   <ul id="output"></ul>
   </div>
-  
-
+  <script src="./index.js"></script>
 </body>
-<script src="./index.js"></script>
 </html>

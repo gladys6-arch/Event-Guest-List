@@ -1,28 +1,14 @@
-// write your code here
+// code written here
+const text=document.getElementById('input')
+const button1=document.getElementById('btn')
+const list=document.getElementById('output')
+const button2=document.getElementById('BTN')
+function addGuest(){
+  list.innerHTML=text.value;  
+}
+  button1.addEventListener('click',addGuest);
 
-document.addEventListener("DOMContentLoaded",()=>{
-  let form=document.getElementById('form');
-
-  let inputText=document.getElementById('text');
-
-  let category=document.getElementById('GuestCategory');
-
-  let guestlist=document.getElementById('list');
-
-  let toggleButton=document.getElementById('theme-toggle');
-
-  let currentTheme=localStorage.getItem('theme');
-  if(currentTheme){
-    document.body.classList.add(currentTheme);
-  }
-  toggleButton.addEventListener('click',() =>{
-    document.body.classList.toggle('dark-theme');
-    localStorage.setItem('theme',theme)
-  });
-
-  const guest
-
-
-})
-
-
+function deleteGuest(){
+  list.innerHTML=text.value; 
+}
+button2.addEventListener('click',deleteGuest)
