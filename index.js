@@ -10,5 +10,9 @@ function addGuest(){
 
 function deleteGuest(){
   list.innerHTML=text.value; 
+  if(guestname=>10){
+    alert
+  }
 }
 button2.addEventListener('click',deleteGuest)
+
