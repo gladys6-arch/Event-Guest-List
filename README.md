@@ -6,7 +6,7 @@ This Repository contains solution to the week2 Code challenge the that include;
 3. To remove the guest name using the delete button.
 4. Add a remove button for each guest.
 5. Limit the name of guest to zero and alert when limit is exceeded.
-6. Add a toggle RVSp feature to mark the guest attending or not attending.
+6. Add a toggle RVSP feature to mark the guest attending or not attending.
 
 ## Project Setup
 **.** Clone the repository.
