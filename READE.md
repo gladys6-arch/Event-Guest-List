@@ -19,7 +19,7 @@ This Repository contains solution to the week2 Code challenge the that include;
 Gladys Achando
 
 ## Licence
-
+copyright 2025
 
 MIT Licence
 
