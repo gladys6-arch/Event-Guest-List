@@ -10,13 +10,20 @@
   <div class="container">
    <div class="heading">
     <h1>Event guest list</h1>
-    <input type="button" value="toggle">
+    <input id="toggle" type="button" value="toggle">
    </div>
-   <label id="username">Guest Name</label>
+   <div>
+   <label id="username">Guest Name:</label>
    <input id="input" placeholder="Enter Name" type="text">
+   <select  id="category">
+    <option value="family">family</option>
+    <option value="friends">friends</option>
+    <option value="colleague">colleague</option>
+   </select>
    <input id="btn" type="button" value="add">
    <input id="BTN" type="button" value="delete">
    <ul id="output"></ul>
+   </div>
   </div>
   <script src="./index.js"></script>
 </body>
