@@ -1,29 +1,59 @@
 .container{
   height: 600px;
   width: 600px;
-  background-color: blueviolet;
+  border: 1px solid white;
   justify-content: center;
   display: inline-block;
   align-items: center;
   border-radius: 10px;
-}
-.heading{
-  margin-top: 0;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 80px;
+  flex-direction: row;
+ 
 }
 
-#toggle{
-  margin-left: 30rem;
-  justify-content: end;
-  position: relative;
-  align-items: first baseline;
-  text-align: end;
+.heading{
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.heading h1{
+  margin-top: 0;
+  color: white;
+
+}
+
+
+
+#guest-list{
+  list-style: none;
+  margin-top: 10px;
+  width: 300px; 
+
+}
+
+#guest-list li{
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
   
 }
 
-ul{
-  list-style: none;
-  margin-top: 10px;
-  width: 30rem;
+#guest-list li button{
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 
@@ -33,5 +63,37 @@ ul{
 }
 
 .rsvp-button{
-  background-color: #6c757d;
+  background-color: lightgreen;
+}
+#toggle{
+  padding: 5px 10px;
+  background-color: lightgreen;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+#username{
+  margin-left: 10px;
+  color: white;
+}
+#category{
+  margin-left: 10px;
+  margin-right: 6px;
+  color: white;
+}
+
+*{
+  background-color: black;
+}
+#btn{
+  color: white;
+  background-color: green;
+}
+#guest-name{
+  background-color: white;
+}
+
+@media(max-width:600px){
+ .container{
+  flex-direction: column;
+ }
 }
